@@ -5,14 +5,14 @@ const topics = ["HTML", "CSS", "Git", "JavaScript"];
 const randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
 // Log each topic from topics to the console
-let listTopics = () => {
+const listTopics = () => {
   topics.forEach((topic) => {
     console.log(topic);
   });
 };
 
 // Create the function for returning a selected topic
-let selectedTopic = () =>
+const selectedTopic = () =>
   !randomTopic ? `Please try again!` : `Let's study ${randomTopic}`;
 
 // Display console messages
