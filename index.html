@@ -8,19 +8,137 @@
     <title>Prework Guide</title>
   </head>
   <body>
-    <header id="top">
-      <h1>Prework Study Guide</h1>
+    <header id="header">
+      <h1>Prework Guide</h1>
       <img
         src="./assets/bowtie-cat.png"
         alt="Profile image of cat wearing a bow tie."
       />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>
+            Use the HEAD element to hold information for the browser and search
+            engines.
+          </li>
+          <li>Use the BODY element for what your users will see.</li>
+          <li>
+            Use ul or ol for lists and identify each point using the li element.
+          </li>
+          <li>
+            Inside the bounds of img, you can include the source using
+            src="http..." and its width and height.
+          </li>
+          <li>Use br for a whole line break.</li>
+        </ul>
+      </section>
+
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>
+            A margin indicates how much space we want around the outside of an
+            element.
+          </li>
+          <li>
+            Use BOX model for all elements (Content, padding, border, margin.
+          </li>
+          <li>
+            A padding indicates how much space we want around the content inside
+            an element.
+          </li>
+          <li>
+            Add formatting information for each element type contained on your
+            index page.
+          </li>
+          <li>
+            Use DRY to avoid repeating or duplicating. h1, h2 { } is an example
+            of how to combine.
+          </li>
+        </ul>
+      </section>
+
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>git status checks what branch you are in</li>
+          <li>
+            git checkout -b branch-name: creates a new branch and switches to it
+          </li>
+          <li>git checkout main switches to main branch</li>
+          <li>
+            git pull main downloads the latest version of main branch from
+            GitHub
+          </li>
+          <li>git add -A to track all files that have changed</li>
+          <li>
+            You need to save EACH page that you have changed in VS Code in order
+            for those changes to take effect in the preview.
+          </li>
+          <li>
+            IMPORTANT: If working on files locally first, always add an empty
+            repo on GitHub and then commit.
+          </li>
+        </ul>
+      </section>
+
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>
+            console.log(myVariableName) prints the current value (at the point
+            this line of code is executed) to the console
+          </li>
+          <li>
+            console.log("Let's study HTML!") prints the text inside the quote
+            marks
+          </li>
+          <li>
+            Control flow is important as JS works from top to bottom, but
+            evaluates the entirity of for loops before moving on
+          </li>
+          <li>
+            if (condition) { // block of code to be executed if condition is
+            truthy }
+          </li>
+          <li>
+            Falsey: 0, -0, On, "", null, undefined, NaN, or a Boolean of false
+          </li>
+          <li>
+            Once JS has found a step inside an if statement that IS truthy, it
+            runs that code, and then breaks out of the if. This means NO CODE
+            after a truthy statement, will run inside the IF
+          </li>
+          <li>
+            if (condition === "ThisIS CASE sensitiVE") It has to be an eact
+            match.
+          </li>
+          <li>
+            var shapes = ["triangle", "square", "pentagon", "circle"]; saves
+            values in an array and refers to them as shapes[0], shapes[1] etc.
+          </li>
+          <li>Arrays can hold different data types! SOOOO USEFUL!</li>
+          <li>
+            var shapes = ["triangle", "square", "pentagon", "circle"];
+            console.log(shapes[0]); for(var x = 0; x < shapes.length; x++) {
+            console.log(shapes[x]); }
+          </li>
+          <li>
+            The for loop consists of the for statement, then 3 conditional parts
+            inside the brackets, then the action to take for each step while the
+            x value inside the for loop is less than the number of array items
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
+
+    <script src="./assets/script.js"></script>
   </body>
 </html>
